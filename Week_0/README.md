@@ -1,5 +1,5 @@
 
-#Dependencies for magic, xschem, netgen, ngspice and open_pdks
+# Dependencies for magic, xschem, netgen, ngspice and open_pdks
 
 sudo apt-get update
 
