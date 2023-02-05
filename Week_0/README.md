@@ -34,3 +34,5 @@ sudo apt-get install libxaw7-dev
 sudo apt-get install libreadline6-dev
 
 sudo apt-get install libxmlb2
+
+ALIGN TEST: schematic2layout.py ../ALIGN-pdk-sky130/examples/five_transistor_ota -p ../pdks/SKY130_PDK/
