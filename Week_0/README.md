@@ -26,7 +26,7 @@ sudo apt-get install gdebi
 
 Note: After installing every tool, navigate back to home/<username> directory.
 
-1. Xschem - Schematic Capture Program
+## 1. Xschem - Schematic Capture Program
 
 ```
 $ git clone https://github.com/StefanSchippers/xschem.git xschem_git
@@ -34,7 +34,7 @@ $ ./configure
 $ make
 $ sudo make install
 ```
-2. Ngspice - Opem-source simulator
+## 2. Ngspice - Opem-source simulator
 
 Download ngspice tar.gz file from sourceforge.net. Current version is 39.
 
@@ -48,7 +48,7 @@ $ make
 $ sudo make install
 ```
 
-3. Netgen - Compares netlists specifically LVS (Layout vs Schematic)
+## 3. Netgen - Compares netlists specifically LVS (Layout vs Schematic)
 
 ```
 $ git clone git://opencircuitdesign.com/netgen
@@ -58,7 +58,7 @@ $ make
 $ sudo make install
 ```
 
-4. Magic - VLSI layout tool
+## 4. Magic - VLSI layout tool
 
 ```
 $ git clone git://opencircuitdesign.com/magic
@@ -68,7 +68,7 @@ $ make
 $ sudo make install
 ```
 
-5. open-pdks - Process Design Kit for sky130 process
+## 5. open-pdks - Process Design Kit for sky130 process
 
 ```
 $ mkdir pd_working_dir
@@ -79,7 +79,7 @@ $ ./configure --enable-sky130-pdk
 $ make
 $ sudo make install
 ```
-6. Klayout - Layout viewer
+## 6. Klayout - Layout viewer
 
 Download the .deb installation file from KLayout Downloads page (suiting your OS)
 ```
@@ -87,7 +87,7 @@ cd Downloads
 sudo gebi klayout_0.28.5-1_amd64.deb #use your downloaded file name
 ```
 
-7. ALIGN - Intelligent tool to generate layout from schematic
+## 7. ALIGN - Intelligent tool to generate layout from schematic
 
 ```
 $ export CC=/usr/bin/gcc
@@ -120,6 +120,23 @@ cd test
 schematic2layout.py ../examples/five_transistor_ota -p ../pdks/SKY130_PDK/
 #viee generated files using Klayout
 
+```
+
+# Creation of Working Directory - to link all tools to sky130 pdk
+
+```
+$ mkdir Week0
+$ cd Week0
+$ mkdir mag
+$ mkdir netgen
+$ mkdir xschem
+$ cd xschem
+$ cp /usr/local/share/pdk/sky130A/libs.tech/xschem/xschemrc .
+$ cp /usr/local/share/pdk/sky130A/libs.tech/ngspice/spinit .spiceinit
+$ cd ../mag
+$ cp /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc .magicrc
+$ cd ../netgen
+$ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 ```
 
 # Bibliography
