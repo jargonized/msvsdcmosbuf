@@ -257,6 +257,11 @@ Error: using sky130 PTM file for my_model_file.tech. Unable to parse
 1. ALIGN unable to parse the netlist extracted from xschem
 2. Post-layout simulation does not match
 
+| ![Simulation commands](labs/13.png) | 
+| ![Simulation commands](labs/14.png) | 
+| ![Simulation commands](labs/15.png) | 
+| ![Simulation commands](labs/16.png) | 
+| ![Simulation commands](labs/17.png) | 
 
   
 # Bibliography
