@@ -242,7 +242,13 @@ netgen -batch lvs "../mag/inverter.spice inverter" "../../.xschem/simulations/in
 # Pre-layout characterisation of fn_prelayout.cir
 
 # Post-layout characterisation of fn_postlayout.mag
+| ![Simulation commands](labs/11.png) | 
+|:--:| 
+| Layout|  
 
+| ![Simulation commands](labs/12.png) | 
+|:--:| 
+| Commands to extract spice file|  
 # Bugs
   
 # Bibliography
