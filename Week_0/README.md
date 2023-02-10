@@ -241,6 +241,8 @@ netgen -batch lvs "../mag/inverter.spice inverter" "../../.xschem/simulations/in
 
 # Pre-layout characterisation of fn_prelayout.cir
 
+Error: using sky130 PTM file for my_model_file.tech. Unable to parse
+
 # Post-layout characterisation of fn_postlayout.mag
 | ![Simulation commands](labs/11.png) | 
 |:--:| 
@@ -249,7 +251,17 @@ netgen -batch lvs "../mag/inverter.spice inverter" "../../.xschem/simulations/in
 | ![Simulation commands](labs/12.png) | 
 |:--:| 
 | Commands to extract spice file|  
+
 # Bugs
+
+1. ALIGN unable to parse the netlist extracted from xschem
+
+https://vsdtapeout-dqo1543.slack.com/archives/C04NEPFLMJ5/p1675969583457559
+
+2. Post-layout simulation does not match
+
+https://vsdtapeout-dqo1543.slack.com/archives/C04NEPFLMJ5/p1676023111240859
+
   
 # Bibliography
 
