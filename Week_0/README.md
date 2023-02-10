@@ -255,12 +255,8 @@ Error: using sky130 PTM file for my_model_file.tech. Unable to parse
 # Bugs
 
 1. ALIGN unable to parse the netlist extracted from xschem
-
-https://vsdtapeout-dqo1543.slack.com/archives/C04NEPFLMJ5/p1675969583457559
-
 2. Post-layout simulation does not match
 
-https://vsdtapeout-dqo1543.slack.com/archives/C04NEPFLMJ5/p1676023111240859
 
   
 # Bibliography
