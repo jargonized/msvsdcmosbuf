@@ -156,7 +156,27 @@ $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 
 | ![Simulation commands](labs/4.png) | 
 |:--:| 
-| Xschem |
+| ALIGN |
+  
+# Creation of Inverter using Xschem
+
+```
+#pwd: /home/jargonized 
+cd Week0
+cd xschem
+xschem
+```
+
+Create an inverter circuit as shown. Use Shift+I to insert symbols. Under the pdks folder shown by the tool manager, choose pfet and nfet symbols for 1v_80. Use ipin.sym and opin.sym for input and output ports and use iopin.sym for supply ports. Use 'W' key for wiring.
+
+| ![Simulation commands](labs/5.png) | 
+|:--:| 
+| Inverter Circuit|
+
+Use 'A' key to create a symbol file for the circuit created.
+
+
+
 
   
   
