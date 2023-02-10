@@ -186,7 +186,7 @@ Click on Simulate. Ngspice window will open. You can now view the plot.
 |:--:| 
 | Simulated Output|
 
-#Pre-layout Characterisation
+# Pre-layout Characterisation
 
 Values taken for calculation: 50% = 0.9V; 20%=0.36V; 80%=1.44V
 
