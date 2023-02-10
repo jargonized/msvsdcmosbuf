@@ -202,8 +202,25 @@ Fall Propagation Delay = 22.22 ps
 |:--:| 
 | Example value capture|
 
+# Importing netlist and working with magic
+ 
+Navigate to mag directory. Use ``` magic -d XR``` to open magic. Under the file menu, use import spice to import the netlist inverter.spice
+  
+An empty inverter cell will be visible with black bounding box. Move cursor over the cell and press 's'. Then press 'x'. The four metal contacts and two empty fet cells will be visible.
+  
+NFET and PFET devices should be created using the Devices menu. Create nfet and pfet devices by referring to values given in [3] and [4]. Save the .mag files under the default name shown. Navigate to mag folder using the terminal and rename the files to match the missing cell name displayed on the tkcon window.
 
+Reload inverter.mag and expand the cell. NFET, PFET and the metal contacts will be visible. Place the cells as shown below using the move command. 
 
+Note: For moving elements, 's' to select metal contacts and 'i' to select cells.
+
+Use [1] as reference to learn about the wiring tool. You can alternate between wiring and box tool by pressing the space bar and ```:tool box``` respectively.
+
+Route the design as shown.
+
+| ![Simulation commands](labs/9.png) | 
+|:--:| 
+| Modified layout after importing|
   
   
 # Bibliography
