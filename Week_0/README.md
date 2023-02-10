@@ -193,10 +193,8 @@ Values taken for calculation: 50% = 0.9V; 20%=0.36V; 80%=1.44V
 ```
 Input Rise Time = 61.78 ps
 Input Fall Time = 60.52 ps
-Output Rise Time = 
-Output Fall Time =
-Input Rise Slew =
-Input Fall Slew = 
+Output Rise Time = 41.7 ps
+Output Fall Time = 33.89 ps
 Rise Propagation Delay = 22.4358 ps
 Fall Propagation Delay = 22.22 ps
 ``` 
