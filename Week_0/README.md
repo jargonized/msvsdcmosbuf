@@ -138,6 +138,8 @@ $ cp /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc .magicrc
 $ cd ../netgen
 $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 ```
+  
+![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
 # Successful tool installation verification
 ! [Simulation commands](/labs/Screenshot from 2023-02-07 13-32-16.png) 
 
