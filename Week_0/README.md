@@ -138,7 +138,10 @@ $ cp /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc .magicrc
 $ cd ../netgen
 $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 ```
-
+# Successful tool installation verification
+  
+  
+  
 # Bibliography
 
 1. https://www.youtube.com/watch?v=NUahmUtY814
