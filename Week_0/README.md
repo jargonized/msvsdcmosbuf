@@ -146,15 +146,15 @@ $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 |:--:| 
 | Magic |
 
-| ! [Simulation commands](labs/2.png) | 
+| ![Simulation commands](labs/2.png) | 
 |:--:| 
 | Netgen |
 
-| ! [Simulation commands](labs/3.png) | 
+| ![Simulation commands](labs/3.png) | 
 |:--:| 
 | Xschem |
 
-| ! [Simulation commands](labs/4.png) | 
+| ![Simulation commands](labs/4.png) | 
 |:--:| 
 | Xschem |
 
