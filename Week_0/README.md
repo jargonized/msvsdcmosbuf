@@ -143,7 +143,7 @@ $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 # Successful tool installation verification
 ! [Simulation commands](/labs/Screenshot from 2023-02-07 13-32-16.png) 
 
-|! [Simulation commands](/labs/Screenshot from 2023-02-07 13-32-16.png) | 
+|![Simulation commands](labs/Screenshot from 2023-02-07 13-32-16.png) | 
 |:--:| 
 | Magic |
 
