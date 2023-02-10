@@ -169,7 +169,7 @@ xschem
 
 Create an inverter circuit as shown. Use Shift+I to insert symbols. Under the pdks folder shown by the tool manager, choose pfet and nfet symbols for 1v_80. Use ipin.sym and opin.sym for input and output ports and use iopin.sym for supply ports. Use 'W' key for wiring.
 
-| ![Simulation commands](labs/5.png) | 
+| ![Simulation commands](labs/5_1.png) | 
 |:--:| 
 | Inverter Circuit|
 
