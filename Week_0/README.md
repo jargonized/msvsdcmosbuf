@@ -198,7 +198,9 @@ Output Fall Time = 33.89 ps
 Rise Propagation Delay = 22.4358 ps
 Fall Propagation Delay = 22.22 ps
 ``` 
-
+| ![Simulation commands](labs/8.png) | 
+|:--:| 
+| Example value capture|
 
 
 
