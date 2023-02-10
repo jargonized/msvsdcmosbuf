@@ -139,11 +139,11 @@ $ cd ../netgen
 $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 ```
   
-![Alt text](labs/Screenshot from 2023-02-07 13-37-30.png "a title")
+![Alt text](labs/1.png "a title")
 # Successful tool installation verification
 ! [Simulation commands](/labs/Screenshot from 2023-02-07 13-32-16.png) 
 
-|![Simulation commands](labs/Screenshot from 2023-02-07 13-32-16.png) | 
+|![Simulation commands](labs/1.png) | 
 |:--:| 
 | Magic |
 
