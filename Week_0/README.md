@@ -173,7 +173,33 @@ Create an inverter circuit as shown. Use Shift+I to insert symbols. Under the pd
 |:--:| 
 | Inverter Circuit|
 
-Use 'A' key to create a symbol file for the circuit created.
+Use 'A' key to create a symbol file for the circuit created. Create a new schematic for simulation. Select supply sources from devices under the symbols library and create the following setup. Spice netlist commands are added using code_shown.sym
+ 
+| ![Simulation commands](labs/6.png) | 
+|:--:| 
+| Inverter Testbench Circuit|
+
+Click on Netlist on top-right of the window. It will create the netlist for the simulations under /home/<username>/.xschem/simulations/ 
+Click on Simulate. Ngspice window will open. You can now view the plot.
+  
+| ![Simulation commands](labs/7.png) | 
+|:--:| 
+| Simulated Output|
+
+#Pre-layout Characterisation
+
+Values taken for calculation: 50% = 0.9V; 20%=0.36V; 80%=1.44V
+
+```
+Input Rise Time = 61.78 ps
+Input Fall Time = 60.52 ps
+Output Rise Time = 
+Output Fall Time =
+Input Rise Slew =
+Input Fall Slew = 
+Rise Propagation Delay = 22.4358 ps
+Fall Propagation Delay = 22.22 ps
+``` 
 
 
 
