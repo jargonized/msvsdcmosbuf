@@ -139,23 +139,22 @@ $ cd ../netgen
 $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 ```
   
-![Alt text](labs/1.png "a title")
+
 # Successful tool installation verification
-! [Simulation commands](/labs/Screenshot from 2023-02-07 13-32-16.png) 
 
 |![Simulation commands](labs/1.png) | 
 |:--:| 
 | Magic |
 
-| ! [Simulation commands](/labs/Screenshot from 2023-02-07 13-37-30.png) | 
+| ! [Simulation commands](labs/2.png) | 
 |:--:| 
 | Netgen |
 
-| ! [Simulation commands](/labs/Screenshot from 2023-02-07 13-38-04.png) | 
+| ! [Simulation commands](labs/3.png) | 
 |:--:| 
 | Xschem |
 
-| ! [Simulation commands](/labs/Screenshot from 2023-02-10 00-16-41.png) | 
+| ! [Simulation commands](labs/4.png) | 
 |:--:| 
 | Xschem |
 
