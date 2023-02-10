@@ -1,4 +1,13 @@
-# Dependencies for Tool Installation
+#Contents
+A. [Dependencies for Tool Installation]
+B. [Tool Installation]
+C. [Creation of Working Directory - to link all tools to sky130 pdk]
+D. [Successful tool installation verification]
+E. [Creation of Inverter using Xschem]
+F. [Pre-layout Characterisation]
+G. 
+
+# A. Dependencies for Tool Installation
 ```
 sudo apt-get update
 sudo apt-get upgrade
@@ -22,7 +31,7 @@ sudo apt-get install lp-solve
 sudo apt-get install gdebi
 ```
 
-# Tool Installation 
+# B. Tool Installation 
 
 Note: After installing every tool, navigate back to home/<username> directory.
 
@@ -122,7 +131,7 @@ schematic2layout.py ../examples/five_transistor_ota -p ../pdks/SKY130_PDK/
 
 ```
 
-# Creation of Working Directory - to link all tools to sky130 pdk
+# C. Creation of Working Directory - to link all tools to sky130 pdk
 
 ```
 $ mkdir Week0
@@ -140,7 +149,7 @@ $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 ```
   
 
-# Successful tool installation verification
+# D. Successful tool installation verification
 
 |![Simulation commands](labs/1.png) | 
 |:--:| 
@@ -158,7 +167,7 @@ $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 |:--:| 
 | ALIGN |
   
-# Creation of Inverter using Xschem
+# E. Creation of Inverter using Xschem
 
 ```
 #pwd: /home/jargonized 
@@ -186,7 +195,7 @@ Click on Simulate. Ngspice window will open. You can now view the plot.
 |:--:| 
 | Simulated Output|
 
-# Pre-layout Characterisation
+# F. Pre-layout Characterisation
 
 Values taken for calculation: 50% = 0.9V; 20%=0.36V; 80%=1.44V
 
@@ -202,7 +211,7 @@ Fall Propagation Delay = 22.22 ps
 |:--:| 
 | Example value capture|
 
-# Importing netlist and working with magic
+# G. Importing netlist and working with magic
  
 Navigate to mag directory. Use ``` magic -d XR``` to open magic. Under the file menu, use import spice to import the netlist inverter.spice
   
@@ -239,11 +248,11 @@ netgen -batch lvs "../mag/inverter.spice inverter" "../../.xschem/simulations/in
 |:--:| 
 | Successful LVS check|  
 
-# Pre-layout characterisation of fn_prelayout.cir
+# H. Pre-layout characterisation of fn_prelayout.cir
 
 Error: using sky130 PTM file for my_model_file.tech. Unable to parse
 
-# Post-layout characterisation of fn_postlayout.mag
+# I. Post-layout characterisation of fn_postlayout.mag
 | ![Simulation commands](labs/11.png) | 
 |:--:| 
 | Layout|  
@@ -252,7 +261,7 @@ Error: using sky130 PTM file for my_model_file.tech. Unable to parse
 |:--:| 
 | Commands to extract spice file|  
 
-# Bugs
+# J. Bugs
 
 1. ALIGN unable to parse the netlist extracted from xschem
 2. Post-layout simulation does not match
@@ -264,7 +273,7 @@ Error: using sky130 PTM file for my_model_file.tech. Unable to parse
 | ![Simulation commands](labs/17.png) | 
 
   
-# Bibliography
+# K. Bibliography
 
 1. https://www.youtube.com/watch?v=NUahmUtY814
 2. https://github.com/bluecmd/learn-sky130/blob/main/schematic/xschem/getting-started.md
