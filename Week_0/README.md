@@ -221,7 +221,29 @@ Route the design as shown.
 | ![Simulation commands](labs/9.png) | 
 |:--:| 
 | Modified layout after importing|
-  
+
+After the layout, extract netlist for post-layout characterisation. Use the following commands in the tkcon window.
+```
+extract do local
+extract all
+ext2spice lvs
+ext2spice
+```
+Perform LVS check on the pre-layout and post-layout netlists.
+
+```
+netgen -batch lvs "../mag/inverter.spice inverter" "../../.xschem/simulations/inv_sim.spice inverter"
+
+```
+| ![Simulation commands](labs/10.png) | 
+|:--:| 
+| Successful LVS check|  
+
+# Pre-layout characterisation of fn_prelayout.cir
+
+# Post-layout characterisation of fn_postlayout.mag
+
+# Bugs
   
 # Bibliography
 
