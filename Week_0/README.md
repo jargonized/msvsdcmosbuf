@@ -1,11 +1,25 @@
-#Contents
-A. [Dependencies for Tool Installation]
-B. [Tool Installation]
-C. [Creation of Working Directory - to link all tools to sky130 pdk]
-D. [Successful tool installation verification]
-E. [Creation of Inverter using Xschem]
-F. [Pre-layout Characterisation]
-G. 
+# Contents
+A. [Dependencies for Tool Installation](#a-dependencies-for-tool-installation)
+
+B. [Tool Installation](#b-tool-installation)
+
+C. [Creation of Working Directory - to link all tools to sky130 pdk](#c-creation-of-working-directory---to-link-all-tools-to-sky130-pdk)
+
+D. [Successful tool installation verification](#d-successful-tool-installation-verification)
+
+E. [Creation of Inverter using Xschem](#e-creation-of-inverter-using-xschem)
+
+F. [Pre-layout Characterisation](#f-pre-layout-characterisation)
+
+G. [Importing netlist and working with magic](#g-importing-netlist-and-working-with-magic)
+
+H. [Pre-layout characterisation of fn_prelayout.cir](#h-pre-layout-characterisation-of-fn_prelayoutcir)
+
+I. [Post-layout characterisation of fn_postlayout.mag](#i-post-layout-characterisation-of-fn_postlayoutmag)
+
+J. [Bugs](#j-bugs)
+
+K. [Bibliography](#k-bibliography)
 
 # A. Dependencies for Tool Installation
 ```
