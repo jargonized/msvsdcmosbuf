@@ -4,7 +4,7 @@ Directory Structure
 
 Action Items Summary
 
-| S. No.    | Week|Day|Action Item|Status| Comments|
+|  No.    | Week|Day|Action Item|Status| Comments|
 |----------|-----|--------|-------|-----------------------|-------------------|
 |1.|0|1|Install Oracle virtual box with Ubuntu 20.04|✅||
 |2.||2|Install Magic, ngspice and SKY130 PDKs|✅||
