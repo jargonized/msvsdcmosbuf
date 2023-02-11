@@ -1,8 +1,8 @@
 # VSD Mixed-Signal Physical Design Research Program
 
-Directory Structure
+## Directory Structure
 
-Action Items Summary
+## Action Items Summary
 
 |  No.    | Week|Day|Action Item|Status| Comments|
 |----------|-----|--------|-------|-----------------------|-------------------|
