@@ -5,7 +5,7 @@
 ## Action Items Summary
 
 |  No.    | Week|Action Item|Status| Comments|
-|----------|-----|--------|-------|-----------------------|-------------------|
+|----------|--------|-------|-----------------------|-------------------|
 |1.|0|Install Oracle virtual box with Ubuntu 20.04|✅||
 |2.||Install Magic, ngspice and SKY130 PDKs|✅||
 |3.||Install ALIGN tool|✅|Also part of Week1|
