@@ -4,20 +4,22 @@
 
 ## Action Items Summary
 
-|  No.    | Week|Day|Action Item|Status| Comments|
+|  No.    | Week|Action Item|Status| Comments|
 |----------|-----|--------|-------|-----------------------|-------------------|
-|1.|0|1|Install Oracle virtual box with Ubuntu 20.04|✅||
-|2.||2|Install Magic, ngspice and SKY130 PDKs|✅||
-|3.||2|Install ALIGN tool|✅||
-|4.||3|Create inverter and perform pre-layout using xschem or ngspice|✅||
-|5.||3|Inverter Post-layout characterization using 2)| ||
-|6.||4|Inverter post-layout characterization using 3) |||
-|7.||4|Compare the results obtained in 5) and 6) | ||
-|8.||5|Enroll in FREE VSD-custom layout course |✅||
-|9.||6|Create the design shown in section 7 of the course and perform pre-layout using xschem or ngspice|✅||
-|10.||6|Post layout characterization using 2) and 3)|||
-|11.||6|Update your findings on your GitHub repo with the title “Week 0”|✅||
-|||||||
-|12.|1|||||
+|1.|0|Install Oracle virtual box with Ubuntu 20.04|✅||
+|2.||Install Magic, ngspice and SKY130 PDKs|✅||
+|3.||Install ALIGN tool|✅|Also part of Week1|
+|4.||Create inverter and perform pre-layout using xschem or ngspice|✅||
+|5.||Inverter Post-layout characterization using 2)| ||
+|6.||Enroll in FREE VSD-custom layout course |✅||
+|7.||Create the design shown in section 7 of the course and perform pre-layout using xschem or ngspice|✅||
+|8.||Post layout characterization using 2.|||
+|9.||Update your findings on your GitHub repo with the title “Week 0”|✅||
+||||||
+|10.|1|Inverter post-layout characterisation using 3.|||
+|11.||Function post-layout characterisation using 3.|||
+|12.||Comparison of 5 and 8|||
+|13.||Comparison of 10 and 11|||
+|14.||Update your findings on your GitHub repo with the title “Week 1”|||
 
 
