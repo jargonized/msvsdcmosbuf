@@ -12,7 +12,7 @@
 |4.||Create inverter and perform pre-layout using xschem or ngspice|✅||
 |5.||Inverter Post-layout characterization using 2)|✅ |Report posted under Week 1|
 |6.||Enroll in FREE VSD-custom layout course |✅||
-|7.||Create the design shown in section 7 of the course and perform pre-layout using xschem or ngspice - general pdk|✅||
+|7.||Create the design shown in section 7 of the course and perform pre-layout using xschem or ngspice - general pdk|✅|Report posted under Week1|
 |8.||Post layout characterization using 2. - general pdk|✅|Report posted under Week 1|
 |9.||Update your findings on your GitHub repo with the title “Week 0”|✅||
 ||||||
